@@ -1,0 +1,59 @@
+body {
+  color: #8D8D8D;
+  font-size: 18px;
+}
+
+button {
+  display: block;
+  border: none;
+  background: transparent;
+}
+
+.vh-dependent {
+  display: flex;
+  align-items: center;
+  height: 35vh;
+}
+
+.btn {
+  background-color: #4737FF;
+  color: #fff;
+  text-transform: uppercase;
+  font-weight: 500;
+  font-size: 14px;
+  padding: 13px 26px;
+  border-radius: 0;
+  text-align: center;
+}
+.btn:hover {
+  background: #3a6cad;
+  color: #fff;
+}
+
+.header {
+  height: 95vh;
+}
+
+.nav {
+  padding-top: 59px;
+  margin-bottom: 127px;
+}
+
+.offer-cont__title {
+  font-size: 60px;
+  line-height: 1.2em;
+}
+
+.offer-cont__text {
+  margin: 30px 0 56px;
+}
+
+.video-container {
+  background: url(../image/img1.jpg) no-repeat right top;
+  background-size: 80% 100%;
+  width: 55%;
+  height: 80vh;
+  position: absolute;
+  right: 0;
+  top: 142px;
+}/*# sourceMappingURL=style.css.map */

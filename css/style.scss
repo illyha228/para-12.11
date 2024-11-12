@@ -1,0 +1,73 @@
+
+$color_1:#8D8D8D;
+$color_2:#151515;
+$color_3:#fff;
+$color_btn:#4737FF;
+$color_btn-hover:#3a6cad;
+$color_4:#8F8F8F;
+$color_black:#000;
+$color_active:#1434E1;
+
+body {
+    color: $color_1;
+    font-size: 18px
+}
+
+button {
+    display: block;
+    border: none;
+    background: transparent;
+}
+
+.vh-dependent {
+    display: flex;
+    align-items: center;
+    height: 35vh;
+}
+
+.btn {
+    background-color: $color_btn;
+    color: $color_3;
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 14px;
+    padding: 13px 26px;
+    border-radius: 0;
+    text-align: center;
+    &:hover{
+        background: $color_btn-hover;
+        color: $color_3;
+    }
+}
+
+.header {
+    height: 95vh;
+}
+
+.nav {
+    padding-top: 59px;
+    margin-bottom: 127px;
+}
+
+.offer-cont__title {
+    font-size: 60px;
+    line-height: 1.2em;
+}
+
+.offer-cont__text {
+    margin: 30px 0 56px;
+}
+
+.video-container{
+    background: url(../image/img1.jpg) no-repeat right top;
+    background-size: 80% 100%;
+    width: 55%;
+    height: 80vh;
+    position: absolute;
+    right: 0;
+    top: 142px;
+}
+
+.video {
+    
+}
