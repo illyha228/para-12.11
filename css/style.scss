@@ -40,6 +40,10 @@ button {
     }
 }
 
+.be-statick {
+    position: static;
+}
+
 .header {
     height: 95vh;
 }
@@ -69,5 +73,23 @@ button {
 }
 
 .video {
+    position: absolute;
+    background: url(../image/video.jpg) no-repeat center center;
+    // display: block;
+    left: 0;
+    bottom: 20%;
+    height: 33%;
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    &::after{
+        content: '';
+        display: block;
+        background: url(../image/play.svg);
+        width: 65px;
+        height: 65px;
+    }
+    }
+
     
-}

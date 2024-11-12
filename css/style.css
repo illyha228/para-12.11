@@ -30,6 +30,10 @@ button {
   color: #fff;
 }
 
+.be-statick {
+  position: static;
+}
+
 .header {
   height: 95vh;
 }
@@ -56,4 +60,23 @@ button {
   position: absolute;
   right: 0;
   top: 142px;
+}
+
+.video {
+  position: absolute;
+  background: url(../image/video.jpg) no-repeat center center;
+  left: 0;
+  bottom: 20%;
+  height: 33%;
+  width: 40%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.video::after {
+  content: "";
+  display: block;
+  background: url(../image/play.svg);
+  width: 65px;
+  height: 65px;
 }/*# sourceMappingURL=style.css.map */
